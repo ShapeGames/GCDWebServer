@@ -37,15 +37,15 @@
 #endif
 
 #import "GCDWebUploader.h"
-#import "GCDWebServerFunctions.h"
+#import "../GCDWebServer/Core/GCDWebServerFunctions.h"
 
-#import "GCDWebServerDataRequest.h"
-#import "GCDWebServerMultiPartFormRequest.h"
-#import "GCDWebServerURLEncodedFormRequest.h"
+#import "../GCDWebServer/Requests/GCDWebServerDataRequest.h"
+#import "../GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h"
+#import "../GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h"
 
-#import "GCDWebServerDataResponse.h"
-#import "GCDWebServerErrorResponse.h"
-#import "GCDWebServerFileResponse.h"
+#import "../GCDWebServer/Responses/GCDWebServerDataResponse.h"
+#import "../GCDWebServer/Responses/GCDWebServerErrorResponse.h"
+#import "../GCDWebServer/Responses/GCDWebServerFileResponse.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -36,14 +36,14 @@
 
 #import "GCDWebDAVServer.h"
 
-#import "GCDWebServerFunctions.h"
+#import "../GCDWebServer/Core/GCDWebServerFunctions.h"
 
-#import "GCDWebServerDataRequest.h"
-#import "GCDWebServerFileRequest.h"
+#import "../GCDWebServer/Requests/GCDWebServerDataRequest.h"
+#import "../GCDWebServer/Requests/GCDWebServerFileRequest.h"
 
-#import "GCDWebServerDataResponse.h"
-#import "GCDWebServerErrorResponse.h"
-#import "GCDWebServerFileResponse.h"
+#import "../GCDWebServer/Responses/GCDWebServerDataResponse.h"
+#import "../GCDWebServer/Responses/GCDWebServerErrorResponse.h"
+#import "../GCDWebServer/Responses/GCDWebServerFileResponse.h"
 
 #define kXMLParseOptions (XML_PARSE_NONET | XML_PARSE_RECOVER | XML_PARSE_NOBLANKS | XML_PARSE_COMPACT | XML_PARSE_NOWARNING | XML_PARSE_NOERROR)
 
