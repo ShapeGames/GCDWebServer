@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "GCDWebServer",
+    name: "GCDWebServers",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "GCDWebServer",
+            name: "GCDWebServers",
             targets: ["GCDWebServer"]),
     ],
     dependencies: [
